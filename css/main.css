@@ -1,12 +1,8 @@
-:root {
-  --primary-bg: #3a6cf4;
-  --padding-default: 10px;
-}
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: Georgia, 'Times New Roman', Times, serif;
+ font-family: "Nunito", sans-serif;
 }
 
 html,
@@ -530,12 +526,6 @@ margin-bottom:  40px;
   background: #111;
   margin-right: 50px;
   padding: 20;
-}
-
-h1 {
-  color: red;
-  padding: var(--padding-default)
-
 }
 
 

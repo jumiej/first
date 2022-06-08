@@ -5,10 +5,9 @@
  font-family: "Nunito", sans-serif;
 }
 
-html,
+
 body {
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 
@@ -18,7 +17,7 @@ section {
 
 .btn {
   color: #fff;
-  background: var(--primary-bg);
+  background: #fff;
   font-size: 1em;
   font-weight: 600;
   display: inline-block;
@@ -257,6 +256,21 @@ overflow: hidden;
   margin-top: 20px;
 }
 
+.skills .content .btn {
+  color: white;
+  background: #3a6cf4;
+  font-size: 1.2em;
+  font-weight: 200;
+  display:inline-block;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: 3s ease;
+ }
+
 .skills .content .col-left {
   position: relative;
   width: 46%;
@@ -317,6 +331,12 @@ overflow: hidden;
   width: 80%;
   background: #e3a324;
 }
+
+.skills .content .col-right .bar .python::before {
+  width: 90%;
+  background: #3a6cf4;
+}
+
 
 /* services */
 .services .content {
@@ -511,8 +531,8 @@ margin-bottom:  40px;
 }
 
 .footer {
-  background-color: #191919;
-  color: #333;
+  background-color: #4e9eff;
+  color: #111;
   width: 100vw;
   padding-top: 60px;
   padding-bottom: 40px;

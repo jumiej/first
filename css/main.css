@@ -65,7 +65,7 @@ header .navbar ul li a{
  min-height: 100vh;
  display:   flex;
  align-items: center;
- background: linear-gradient(rgba(0, 0,0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/Resturant.Logo.jpg);
+ background: linear-gradient(rgba(0, 0,0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
  background-size: cover;
  background-repeat: no-repeat;
  /* overflow: hidden; */

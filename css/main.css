@@ -6,8 +6,10 @@
 }
 
 
+html,
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 
@@ -16,8 +18,8 @@ section {
 }
 
 .btn {
-  color: #fff;
-  background: #fff;
+  color: currentColor;
+  background:whitesmoke;
   font-size: 1em;
   font-weight: 600;
   display: inline-block;
@@ -25,7 +27,7 @@ section {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
-  border-radius: 10  px;
+  border-radius: 10px;
   margin-top: 30px;
   transition: 0.5s ease ;
 }
@@ -65,7 +67,7 @@ header .navbar ul li a{
  min-height: 100vh;
  display:   flex;
  align-items: center;
- background: linear-gradient(rgba(0, 0,0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1498462440456-0dba182e775b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+ background: linear-gradient(rgba(0, 0,0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Resturant.Logo.jpg);
  background-size: cover;
  background-repeat: no-repeat;
  /* overflow: hidden; */
@@ -192,11 +194,12 @@ overflow: hidden;
   content: '';
   position: absolute;
   top: 50px;
-  left: 50px;
+  left: 50%;
   width: 15px;
   border-radius: 50%;
   background: #3a6cf4;
-  transform: translateX(-50)
+  height: 15px;
+  transform: translateX(-50%)
 }
 
 /* About */
@@ -224,11 +227,11 @@ overflow: hidden;
 .about .content .col-left .img-card {
     position: relative;
     width: 100%;
-    /* min-height: 450px; */
+    min-height: 450px;
 }
 
 .about  .content .col-left .img-card img {
-  position: absolute bi ;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -365,7 +368,7 @@ overflow: hidden;
   align-items: center;
   flex-direction: column;
   border-radius: 20px;
-  box-shadow: 0.5 0.5px  rgba( 1 1 1 /15%);
+  box-shadow: 2.5px 2.5px  purple;
 }
 
 .services .content .card .service-icon {
@@ -387,12 +390,12 @@ overflow: hidden;
   color: #3a6cf4;
   font-size: 1.2em;
   font-weight: 700;
-  margin-bottom: 10ox;
+  margin-bottom: 10px;
 }
 
 /* project */
 .project {
-  background: #0000;
+  background: #000 !important;
 }
 
 .project .content {
@@ -401,9 +404,10 @@ overflow: hidden;
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 15px;
+  padding: 10px;
 }
 .project .content .card {
-  width: 340px;
+  width: 400px;
   margin: 15px;
 }
 
@@ -417,11 +421,12 @@ overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
-  width: 500px;
-  height: 300px;
+  width: 400px;
+  height: 250px;
   object-fit: cover;
   border-radius: 10px;
   transition: 0.5s ease;
+  margin: 20px;
 }
 
 .project .content .card .card-img img:hover {
